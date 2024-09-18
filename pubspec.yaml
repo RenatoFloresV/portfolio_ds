@@ -1,0 +1,85 @@
+name: portfolio_ds
+description: "A design system for Portfolio Renato Flores Vega"
+version: 1.0.1
+homepage:
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  flutter_keyboard_visibility: ^6.0.0
+  easy_rich_text: ^2.1.0
+  intl: ^0.19.0
+  pin_code_fields: ^8.0.1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shimmer: ^3.0.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - assets/fonts/gotham/
+    - assets/icons/
+    - assets/icons/home/
+    - assets/icons/lines/
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/noto_sans/NotoSans-Thin.ttf
+          style: normal
+          weight: 100
+        - asset: assets/fonts/noto_sans/NotoSans-ThinItalic.ttf
+          style: italic
+          weight: 100
+        - asset: assets/fonts/noto_sans/NotoSans-Light.ttf
+          style: normal
+          weight: 300
+        - asset: assets/fonts/noto_sans/NotoSans-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/noto_sans/NotoSans-Medium.ttf
+          style: normal
+          weight: 500
+        - asset: assets/fonts/noto_sans/NotoSans-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/noto_sans/NotoSans-Bold.ttf
+          style: normal
+          weight: 700
+        - asset: assets/fonts/noto_sans/NotoSans-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/noto_sans/NotoSans-Black.ttf
+          style: normal
+          weight: 900
+
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
